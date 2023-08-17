@@ -1,10 +1,12 @@
 # depslib dependency file v1.0
-1692192896 source:c:\dev\programacion-lab2\stackpointers\main.c
+1692299138 source:c:\dev\programacion-lab2\stackpointers\main.c
 	<stdio.h>
 	<stdlib.h>
 	"student.h"
+	"stack.h"
 
-1692186344 source:c:\dev\programacion-lab2\stackpointers\stack.c
+1692299217 source:c:\dev\programacion-lab2\stackpointers\stack.c
+	"stack.h"
 
 1692192547 c:\dev\programacion-lab2\stackpointers\student.h
 	<stdio.h>
@@ -12,8 +14,13 @@
 	<conio.h>
 	"string.h"
 
-1692192994 source:c:\dev\programacion-lab2\stackpointers\student.c
+1692194321 source:c:\dev\programacion-lab2\stackpointers\student.c
 	"student.h"
 	<conio.h>
 	"string.h"
+
+1692298986 c:\dev\programacion-lab2\stackpointers\stack.h
+	<stdio.h>
+	<stdlib.h>
+	"student.h"
 
