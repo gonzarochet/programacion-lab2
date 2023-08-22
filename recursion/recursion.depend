@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1692721407 source:c:\dev\programacion-lab2\recursion\main.c
+	<stdio.h>
+	<stdlib.h>
+
