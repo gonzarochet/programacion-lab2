@@ -8,6 +8,9 @@ void showArrayRecursiveInverse(int array[],int v);
 int isCapicua (int array[], int i, int v);
 int addNumbersArray(int array[],int v);
 int findLowerValuePosition(int array[],int pos, int v);
+int findLowerValuePosition2(int array[],int v, int i, int pos);
+int findLowerValuePosition3(int array[],int v);
+int findLowerValueInFile2(char filename[]);
 
 int main()
 {
@@ -21,7 +24,7 @@ int main()
     printf("\n");
     showArrayRecursiveInverse(array,6);
 
-    int array2[6] = {3,2,1,1,2,3};
+    int array2[6] = {1,2,7,5,2,9};
     printf("\n");
     showArrayRecursive(array2,6);
     printf("\nArray 1- Si es 1 el arreglo es capicua, si no es 0 ---> %d",isCapicua(array,0,6));
@@ -33,12 +36,18 @@ int main()
 
     printf("\nArray 1- La posicion del menor elemento del array es: %d",findLowerValuePosition(array,0,6));
     printf("\nArray 2- La posicion del menor elemento del array es: %d",findLowerValuePosition(array2,0,6));
+    printf("\nArray 2- La posicion del menor elemento del array con funcion 2 es : %d",findLowerValuePosition2(array2,6,0,0));
+    printf("\nArray 2- La posicion del menor elemento del array con funcion 3 es : %d",findLowerValuePosition3(array2,6));
+
+
 
     printf("\n");
-    //arrayToArchi(array,6,"numeritos.dat");
+    arrayToArchi(array,6,"numeritos.dat");
     showArchi("numeritos.dat");
     printf("\n");
-    printf("El valor menor de numeritos.dat es %d", testArchi("numeritos.dat"));
+    printf("El valor menor de numeritos.dat es %d", findLowerValueInFile2("numeritos.dat"));
+
+    system("pause");
 
     testArchi2("numeritos.dat");
     printf("\n");
@@ -151,6 +160,46 @@ int findLowerValuePosition(int array[],int pos, int v)
 
 }
 
+int findLowerValuePosition2(int array[],int v, int i, int pos)
+{
+    if(i==v)
+    {
+        pos = v-1;
+    }
+    else
+    {
+        pos = findLowerValuePosition2(array,v,i+1,pos);
+        if(array[i]<array[pos])
+        {
+            pos = i;
+        }
+
+    }
+    return pos;
+
+}
+
+int findLowerValuePosition3(int array[],int v)
+{
+    int posMenor;
+    if(v==0)
+    {
+        posMenor = 0;
+    }
+    else
+    {
+        posMenor = findLowerValuePosition3(array,v-1);
+        if(array[v] < array[posMenor])
+        {
+            posMenor = v;
+        }
+    }
+
+    return posMenor;
+}
+
+
+
 void arrayToArchi(int array[], int v, char nombreArchivo[])
 {
 
@@ -214,6 +263,33 @@ int testArchi(char nameFile[])
         fclose(buffer);
     }
     return value;
+}
+
+int findLowerValueInFile2(char filename[])
+{
+    int readValue;
+    int lowerValue;
+    FILE *buffer = fopen(filename, "rb");
+
+    if (buffer)
+    {
+        if (fread(&readValue, sizeof(int), 1, buffer) > 0)
+        {
+            lowerValue = findLowerValueInFile2(filename);
+            fclose(buffer);
+            if(lowerValue > readValue)
+            {
+                lowerValue = readValue;
+            }
+            else
+            {
+                fclose(buffer);
+                lowerValue = 999999;
+            }
+        }
+
+    }
+    return lowerValue;
 }
 
 
