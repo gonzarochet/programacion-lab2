@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1693853963 source:c:\develop\c\programacion-lab2\listas\alumno.c
+	"alumno.h"
+	<conio.h>
+	"string.h"
+
+1693686422 c:\develop\c\programacion-lab2\listas\alumno.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"string.h"
+
+1693855418 source:c:\develop\c\programacion-lab2\listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"alumno.h"
+	"string.h"
+	"nodoAlumno.h"
+
+1693855068 c:\develop\c\programacion-lab2\listas\nodoalumno.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"string.h"
+	"alumno.h"
+
+1693855288 source:c:\develop\c\programacion-lab2\listas\nodoalumno.c
+	"nodoAlumno.h"
+	"alumno.h"
+

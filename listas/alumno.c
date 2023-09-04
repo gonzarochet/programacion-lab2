@@ -1,4 +1,4 @@
-#include "student.h"
+#include "alumno.h"
 #include <conio.h>
 #include "string.h"
 

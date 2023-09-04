@@ -5,11 +5,17 @@
 #include <stdlib.h>
 #include <conio.h>
 #include "string.h"
+#include "alumno.h"
 
 typedef struct {
-    stStudent * dato;
+    stStudent  dato;
     struct nodoAlumno * sig;
 }nodoAlumno;
+
+nodoAlumno * inicLista();
+nodoAlumno * crearNodo(stStudent student);
+nodoAlumno * agregarPrincipio(nodoAlumno * lista, nodoAlumno * nuevoNodo);
+
 
 
 
