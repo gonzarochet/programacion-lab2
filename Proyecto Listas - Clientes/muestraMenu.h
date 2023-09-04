@@ -1,0 +1,7 @@
+#ifndef MUESTRAMENU_H_INCLUDED
+#define MUESTRAMENU_H_INCLUDED
+
+void muestraMenu();
+
+
+#endif // MUESTRAMENU_H_INCLUDED
