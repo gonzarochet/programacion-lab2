@@ -201,6 +201,37 @@ nodoAlumno* invertirElementosLista2(nodoAlumno* lista)
 
 
 
+nodoAlumno * invertirElementosListaRecursivo(nodoAlumno * lista)
+{
+    nodoAlumno * principioNuevo = NULL;
+
+    if(lista->sig)
+    {
+        principioNuevo = invertirElementosListaRecursivo(lista->sig);
+        nodoAlumno * aux = lista->sig;
+        aux->sig = lista;
+        lista->sig = NULL;
+    }else{
+        principioNuevo = lista;
+    }
+    return principioNuevo;
+}
+/*
+nodoAlumno* invertirElementosListaRecursivo(nodoAlumno* lista) {
+    if (lista == NULL || lista->sig == NULL) {
+        return lista;
+    }
+
+    nodoAlumno* restoInvertido = invertirElementosListaRecursivo(lista->sig);
+
+    lista->sig->sig = lista;
+    lista->sig = NULL;
+
+    return restoInvertido;
+}
+
+*/
+
 
 
 

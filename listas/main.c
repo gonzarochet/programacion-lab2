@@ -23,7 +23,11 @@ int main()
     printf("La lista es: -------!\n");
     muestraLista(lista);
 
-    lista = invertirElementosLista(lista);
+    lista = invertirElementosLista2(lista);
+    printf(" \n La lista invertida es : -------!\n");
+    muestraLista(lista);
+
+    lista = invertirElementosListaRecursivo(lista);
     printf(" \n La lista invertida es : -------!\n");
     muestraLista(lista);
     return 0;

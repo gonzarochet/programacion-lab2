@@ -31,13 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="alumno.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alumno.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Unit filename="nodoAlumno.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="nodoAlumno.h" />
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

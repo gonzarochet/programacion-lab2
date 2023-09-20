@@ -15,7 +15,7 @@ typedef struct {
 nodoAlumno * inicLista();
 nodoAlumno * crearNodo(stStudent student);
 nodoAlumno * agregarPrincipio(nodoAlumno * lista, nodoAlumno * nuevoNodo);
-
+nodoAlumno * invertirElementosListaRecursivo(nodoAlumno * lista );
 
 
 
