@@ -4,10 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct{
+typedef struct _nodoArbolInt{
     int dato;
-    struct nodoArbolInt * izq;
-    struct nodoArbolInt * der;
+    struct _nodoArbolInt * izq;
+    struct _nodoArbolInt * der;
 }nodoArbolInt;
 
 nodoArbolInt * inicArbol();
@@ -15,6 +15,8 @@ nodoArbolInt * inicArbol();
 nodoArbolInt * crearNodoArbol(int dato);
 void * nuevoArbol(nodoArbolInt * raiz, nodoArbolInt * ramaDerecha, int dato, nodoArbolInt * ramaIzquierda);
 nodoArbolInt * insertarNodo(nodoArbolInt*arbol, int dato);
+
+void dibujarArbol(nodoArbolInt* arbol, int nivel);
 
 void visitar(nodoArbolInt * arbol);
 void preOrder(nodoArbolInt * arbol);

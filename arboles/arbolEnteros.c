@@ -17,12 +17,12 @@ nodoArbolInt * crearNodoArbol(int dato)
     return aux;
 }
 
-void * nuevoArbol(nodoArbolInt * raiz, nodoArbolInt * ramaDerecha, int dato, nodoArbolInt * ramaIzquierda)
-{
-    raiz = crearNodoArbol(dato);
-    raiz->der = ramaDerecha;
-    raiz->izq = ramaIzquierda;
-}
+//void * nuevoArbol(nodoArbolInt * raiz, nodoArbolInt * ramaDerecha, int dato, nodoArbolInt * ramaIzquierda)
+//{
+//    *raiz = crearNodoArbol(dato);
+//    raiz->der = ramaDerecha;
+//    raiz->izq = ramaIzquierda;
+//}
 
 nodoArbolInt * insertarNodo(nodoArbolInt*arbol, int dato)
 {
@@ -32,7 +32,7 @@ nodoArbolInt * insertarNodo(nodoArbolInt*arbol, int dato)
     }
     else
     {
-        if(dato<arbol->dato)
+        if(dato < arbol->dato)
         {
             arbol->izq = insertarNodo(arbol->izq,dato);
         }
@@ -41,6 +41,7 @@ nodoArbolInt * insertarNodo(nodoArbolInt*arbol, int dato)
             arbol->der = insertarNodo(arbol->der,dato);
         }
     }
+    return arbol;
 }
 
 int profundidadArbol(nodoArbolInt *arbol)
