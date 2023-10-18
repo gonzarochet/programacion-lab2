@@ -1,19 +1,19 @@
 # depslib dependency file v1.0
-1697569930 source:c:\develop\c\programacion-lab2\tp-final\cliente.c
+1697652729 source:c:\develop\c\programacion-lab2\tp-final\cliente.c
 	"cliente.h"
 
-1697570688 c:\develop\c\programacion-lab2\tp-final\cliente.h
+1697643121 c:\develop\c\programacion-lab2\tp-final\cliente.h
 	<stdio.h>
 	<stdlib.h>
 
-1697567804 source:c:\develop\c\programacion-lab2\tp-final\cuenta.c
+1697652729 source:c:\develop\c\programacion-lab2\tp-final\cuenta.c
 	"cuenta.h"
 
 1697567807 c:\develop\c\programacion-lab2\tp-final\cuenta.h
 	<stdio.h>
 	<stdlib.h>
 
-1697563444 source:c:\develop\c\programacion-lab2\tp-final\main.c
+1697652019 source:c:\develop\c\programacion-lab2\tp-final\main.c
 	<stdio.h>
 	<stdlib.h>
 	"cliente.h"
@@ -23,40 +23,43 @@
 	"arbolClientes.h"
 	"arrayCuenta.h"
 
-1697569944 source:c:\develop\c\programacion-lab2\tp-final\movimiento.c
+1697652729 source:c:\develop\c\programacion-lab2\tp-final\movimiento.c
 	"movimiento.h"
 
 1697567665 c:\develop\c\programacion-lab2\tp-final\movimiento.h
 	<stdio.h>
 	<string.h>
 
-1697566331 source:c:\develop\c\programacion-lab2\tp-final\arbolclientes.c
+1697652490 source:c:\develop\c\programacion-lab2\tp-final\arbolclientes.c
 	"arbolClientes.h"
 	"celdaCuenta.h"
 
-1697560977 c:\develop\c\programacion-lab2\tp-final\arbolclientes.h
+1697642802 c:\develop\c\programacion-lab2\tp-final\arbolclientes.h
 	"cliente.h"
 	"arrayCuenta.h"
 	"celdaCuenta.h"
 	"movimiento.h"
 
-1697563627 c:\develop\c\programacion-lab2\tp-final\arraycuenta.h
+1697652490 c:\develop\c\programacion-lab2\tp-final\arraycuenta.h
 	<stdio.h>
 	<stdlib.h>
 	"celdaCuenta.h"
 
-1697560711 c:\develop\c\programacion-lab2\tp-final\celdacuenta.h
+1697571178 c:\develop\c\programacion-lab2\tp-final\celdacuenta.h
 	"cuenta.h"
 	"listaMovimiento.h"
 
-1697562992 c:\develop\c\programacion-lab2\tp-final\listamovimiento.h
+1697652490 c:\develop\c\programacion-lab2\tp-final\listamovimiento.h
 	"movimiento.h"
 
-1697570673 source:c:\develop\c\programacion-lab2\tp-final\arraycuenta.c
+1697652781 source:c:\develop\c\programacion-lab2\tp-final\arraycuenta.c
 	"arrayCuenta.h"
 
-1697566267 source:c:\develop\c\programacion-lab2\tp-final\listamovimiento.c
+1697652615 source:c:\develop\c\programacion-lab2\tp-final\listamovimiento.c
 	"listaMovimiento.h"
 	<stdio.h>
 	<stdlib.h>
+
+1697651973 source:c:\develop\c\programacion-lab2\tp-final\celdacuenta.c
+	"celdaCuenta.h"
 

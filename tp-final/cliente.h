@@ -15,7 +15,7 @@ typedef struct{
     int eliminado; /// 0 si esta activo, 1 si esta dado de baja
 }stCliente;
 
-stCliente cargaUnCliente();
+stCliente cargarUnCliente();
 void muestraCliente(stCliente cli);
 
 #endif // CLIENTE_H_INCLUDED

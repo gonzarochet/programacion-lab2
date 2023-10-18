@@ -8,7 +8,7 @@ nodoArbolCli * inicArbol(){
 nodoArbolCli * crearNodoArbol(stCliente cli){
     nodoArbolCli * aux = (nodoArbolCli * )malloc(sizeof(nodoArbolCli));
     aux->dato = cli;
-    inicializarArreglo(aux->arregloCuenta);
+    aux->arregloCuenta =  inicializarArreglo(aux->arregloCuenta);
     aux->izq = NULL;
     aux->der = NULL;
 
@@ -17,10 +17,8 @@ nodoArbolCli * crearNodoArbol(stCliente cli){
 
 nodoArbolCli * alta(nodoArbolCli * arbol, stCliente cli, stCuenta cnta, stMovimiento mov){
     nodoArbolCli * aux = crearNodoArbol(cli);
-    agregarCuenta(aux.arregloCuenta, cnta);
-    agregarMovimientoAlFinal(&aux.arregloCuenta.arreglo[buscaCuenta(aux->arregloCuenta,cnta.tipoDeCuenta)].lista,crearNodoLista(mov));
+    aux->arregloCuenta = altaArregloCuentas(aux->arregloCuenta,cnta,mov);
     arbol = insertarNodo(arbol,aux);
-
     return aux;
 }
 
@@ -54,8 +52,7 @@ void preOrder(nodoArbolCli * arbol)
     if(arbol)
     {
         visitar(arbol);
-        muestraCuenta(arbol->arregloCuenta.arreglo[0].cuenta);
-        muestraMovimiento(arbol->arregloCuenta.arreglo[0].lista);
+        mostrarArregloCuentas(arbol->arregloCuenta);
         preOrder(arbol->izq);
         preOrder(arbol->der);
     }

@@ -20,7 +20,11 @@ int main()
     stMovimiento mov;
     mov = cargarMovimiento();
 
+    nodoArbolCli  * arbol = inicArbol();
+
     arbol = alta(arbol,cli,cuenta,mov);
+
+
     preOrder(arbol);
 
 

@@ -32,10 +32,10 @@ stCuenta cargarUnaCuenta()
 
 void muestraCuenta(stCuenta c)
 {
-    printf("Id............:%d", c.id);
-    printf("Id Cuenta.....:%d", c.idCuenta);
-    printf("Nro Cuenta.....:%d", c.nroCuenta);
-    printf("Tipo Cuenta.......:%d", c.tipoDeCuenta);
-    printf("Costo mensual.......:%f", c.costoMensual);
-    printf("Eliminado.....:%d", c.eliminado);
+    printf("Id............:%d\n", c.id);
+    printf("Id Cuenta.....:%d\n", c.idCuenta);
+    printf("Nro Cuenta.....:%d\n", c.nroCuenta);
+    printf("Tipo Cuenta.......:%d\n", c.tipoDeCuenta);
+    printf("Costo mensual.......:%f\n", c.costoMensual);
+    printf("Eliminado.....:%d\n", c.eliminado);
 }

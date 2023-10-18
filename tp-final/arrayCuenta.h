@@ -12,8 +12,10 @@ typedef struct {
     int v;
 }arregloCuenta;
 
-void inicializarArreglo(arregloCuenta c);
-void agregarCuenta(arregloCuenta arr, celdaCuenta celda);
+arregloCuenta inicializarArreglo(arregloCuenta c);
+arregloCuenta agregarCuentaArreglo(arregloCuenta  arr, stCuenta cnta);
+arregloCuenta altaArregloCuentas(arregloCuenta  arr, stCuenta cnta, stMovimiento mov);
 int buscaCuenta(arregloCuenta arr, int tipoCuenta);
+void mostrarArregloCuentas(arregloCuenta arr);
 
 #endif // ARRAYCUENTA_H_INCLUDED

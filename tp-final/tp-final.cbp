@@ -39,6 +39,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="arrayCuenta.h" />
+		<Unit filename="celdaCuenta.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="celdaCuenta.h" />
 		<Unit filename="cliente.c">
 			<Option compilerVar="CC" />
@@ -48,6 +51,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="cuenta.h" />
+		<Unit filename="listaMovimiento.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="listaMovimiento.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />

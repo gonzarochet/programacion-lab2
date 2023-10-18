@@ -17,21 +17,23 @@ nodoListaMov * crearNodoLista(stMovimiento dato)
     return aux;
 }
 
-void agregarMovimientoAlFinal(nodoListaMov ** lista, nodoListaMov * nuevo)
+nodoListaMov * agregarMovimientoAlFinal(nodoListaMov * lista, nodoListaMov * nuevo)
 {
 
-    if(!(*lista))
+    if(!lista)
     {
-        (*lista) = nuevo;
+        lista = nuevo;
 
     }
     else
     {
-
-        nodoListaMov * ult = buscarUltimo(*lista);
-        nuevo->ante = ult;
+        nodoListaMov * ult = buscarUltimo(lista);
         ult->sig = nuevo;
+        nuevo->ante = ult;
+
     }
+
+    return lista;
 }
 
 nodoListaMov * buscarUltimo(nodoListaMov * lista)
@@ -53,5 +55,12 @@ void muestraNodo(nodoListaMov * nodo)
     muestraMovimiento(nodo->dato);
     printf("\n Nodo->sig: %p", nodo->sig);
 
+}
+
+void mostrarListaMovimiento(nodoListaMov * lista){
+    while(lista){
+        muestraNodo(lista);
+        lista = lista->sig;
+    }
 }
 

@@ -37,12 +37,12 @@ stCliente cargarUnCliente() {
 
 
 void muestraCliente(stCliente cli){
-    printf("Nombre........: %s",cli.nombre);
-    printf("DNI...........: %s",cli.dni);
-    printf("Domicilio.....: %s",cli.domicilio);
-    printf("ID............: %s",cli.id);
-    printf("Email.........: %s",cli.email);
-    printf("Nro Cliente...: %s",cli.nroCliente);
-    printf("Telefono......: %s",cli.telefono);
-    printf("Eliminado.....: %s",cli.eliminado);
+    printf("Nombre........: %s\n",cli.nombre);
+    printf("DNI...........: %s\n",cli.dni);
+    printf("Domicilio.....: %s\n",cli.domicilio);
+    printf("ID............: %d\n",cli.id);
+    printf("Email.........: %s\n",cli.email);
+    printf("Nro Cliente...: %d\n",cli.nroCliente);
+    printf("Telefono......: %s\n",cli.telefono);
+    printf("Eliminado.....: %d\n",cli.eliminado);
 }

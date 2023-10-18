@@ -15,7 +15,7 @@ typedef struct _nodoArbolCli{
 
 nodoArbolCli * inicArbol();
 nodoArbolCli * crearNodoArbol(stCliente cli);
-nodoArbolCli * alta(nodoArbolCli * arbol, stCliente cli, celdaCuenta celda, stMovimiento mov);
+nodoArbolCli * alta(nodoArbolCli * arbol, stCliente cli, stCuenta cnta, stMovimiento mov);
 nodoArbolCli * insertarNodo(nodoArbolCli * arbol, nodoArbolCli * nuevo);
 
 

@@ -37,11 +37,11 @@ stMovimiento cargarMovimiento() {
 }
 
 void muestraMovimiento(stMovimiento m){
-    printf("Id............:%d", m.id);
-    printf("Id Cuenta.....:%d", m.idCuenta);
-    printf("Detalle.......:%s", m.detalle);
-    printf("Importe.......:%f", m.importe);
-    printf("Fecha.........:%d / %d / %d ",m.dia, m.mes, m.anio);
-    printf("Eliminado.....:%d", m.eliminado);
+    printf("Id............:%d\n", m.id);
+    printf("Id Cuenta.....:%d\n", m.idCuenta);
+    printf("Detalle.......:%s\n", m.detalle);
+    printf("Importe.......:%f\n", m.importe);
+    printf("Fecha.........:%d / %d / %d \n",m.dia, m.mes, m.anio);
+    printf("Eliminado.....:%d \n", m.eliminado);
 }
 

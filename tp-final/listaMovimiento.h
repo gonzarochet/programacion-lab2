@@ -11,6 +11,8 @@ typedef struct _nodoListaMov{
 
 nodoListaMov * inicLista();
 nodoListaMov * crearNodoLista(stMovimiento dato);
-void agregarMovimientoAlFinal(nodoListaMov ** lista, nodoListaMov * nuevo);
+nodoListaMov * agregarMovimientoAlFinal(nodoListaMov * lista, nodoListaMov * nuevo);
 nodoListaMov * buscarUltimo(nodoListaMov * lista);
+void mostrarListaMovimiento(nodoListaMov * lista);
+
 #endif // LISTAMOVIMIENTO_H_INCLUDED
