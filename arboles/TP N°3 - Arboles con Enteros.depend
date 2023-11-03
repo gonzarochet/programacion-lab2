@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1605122110 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbolEnteros.h"
+
+1605122080 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\arbolenteros.c
+	"arbolEnteros.h"
+
+1605121894 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\arbolenteros.h
+	<stdio.h>
+	<stdlib.h>
+
+1696362803 source:c:\users\win10\desktop\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbolEnteros.h"
+
+1696362757 c:\users\win10\desktop\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\arbolenteros.h
+	<stdio.h>
+	<stdlib.h>
+
+1696362883 source:c:\users\win10\desktop\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 3 - arboles\trabajos prácticos\tp n°3 - arboles con enteros\arbolenteros.c
+	"arbolEnteros.h"
+
+1697140270 source:c:\develop\c\programacion-lab2\arboles\main.c
+	<stdio.h>
+	<stdlib.h>
+	"arbolEnteros.h"
+	"listasEnteros.h"
+	"math.h"
+
+1697140366 c:\develop\c\programacion-lab2\arboles\arbolenteros.h
+	<stdio.h>
+	<stdlib.h>
+
+1697137043 source:c:\develop\c\programacion-lab2\arboles\arbolenteros.c
+	"arbolEnteros.h"
+
+1697120421 source:c:\develop\c\programacion-lab2\arboles\listasenteros.c
+	"listasEnteros.h"
+
+1697119871 c:\develop\c\programacion-lab2\arboles\listasenteros.h
+	<stdio.h>
+	<stdlib.h>
+

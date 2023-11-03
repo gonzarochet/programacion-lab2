@@ -1,0 +1,231 @@
+# depslib dependency file v1.0
+1599656340 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archivoClientes.h"
+	"cliente.h"
+
+1600259958 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\archivoclientes.h
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1599656340 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\cliente.h
+
+1600286431 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listassimpleclientes.c
+	"listaSimpleClientes.h"
+
+1600259958 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listasimpleclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+
+1600457323 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+	"registroArchivo.h"
+	"utilidades.h"
+	"gotoxy.h"
+	"listaDobleCliente.h"
+	"muestraMenu.h"
+
+1600259949 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\archivoclientes.c
+	"archivoClientes.h"
+
+1600176553 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\utilidades.c
+	"utilidades.h"
+
+1600176553 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\utilidades.h
+	<stdlib.h>
+	<stdio.h>
+
+1600198600 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\registroarchivo.c
+	"registroArchivo.h"
+
+1600197318 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	"cliente.h"
+	"utilidades.h"
+	"gotoxy.h"
+
+1600197318 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\gotoxy.h
+
+1600277831 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\muestramenu.c
+	"muestraMenu.h"
+	"stdio.h"
+	"cliente.h"
+
+1600196474 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\muestramenu.h
+
+1600197457 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1600457323 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listadoblecliente.c
+	"listaDobleCliente.h"
+
+1600443514 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2do cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listadoblecliente.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+
+1600259949 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\archivoclientes.c
+	"archivoClientes.h"
+
+1600259958 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\archivoclientes.h
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1601044531 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\cliente.h
+
+1601066890 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\cliente.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"archivoClientes.h"
+	"cliente.h"
+
+1600197457 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\gotoxy.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1600286431 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listassimpleclientes.c
+	"listaSimpleClientes.h"
+
+1601404378 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listasimpleclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+
+1601407192 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+	"registroArchivo.h"
+	"utilidades.h"
+	"gotoxy.h"
+	"listaDobleCliente.h"
+	"muestraMenu.h"
+	"tp1-Ejercicios.h"
+	"pilaClientes.h"
+
+1600197318 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	<conio.h>
+	<time.h>
+	"cliente.h"
+	"utilidades.h"
+	"gotoxy.h"
+
+1600176553 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\utilidades.h
+	<stdlib.h>
+	<stdio.h>
+
+1600197318 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\gotoxy.h
+
+1601043705 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listadoblecliente.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+
+1600196474 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\muestramenu.h
+
+1601135149 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\muestramenu.c
+	"muestraMenu.h"
+	"stdio.h"
+	"cliente.h"
+
+1600198600 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\registroarchivo.c
+	"registroArchivo.h"
+
+1600176553 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\utilidades.c
+	"utilidades.h"
+
+1601134847 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listadoblecliente.c
+	"listaDobleCliente.h"
+
+1601391948 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\listasimpleclientes.c
+	"listaSimpleClientes.h"
+
+1601401861 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\tp1-ejercicios.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+	"registroArchivo.h"
+	"utilidades.h"
+	"gotoxy.h"
+	"listaDobleCliente.h"
+	"pilaClientes.h"
+
+1601402028 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\tp1-ejercicios.c
+	"tp1-Ejercicios.h"
+
+1601381327 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\pilaclientes.c
+	"pilaClientes.h"
+
+1601380421 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\pilaclientes.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+	"registroArchivo.h"
+	"utilidades.h"
+	"gotoxy.h"
+	"listaDobleCliente.h"
+	"muestraMenu.h"
+	"tp1-Ejercicios.h"
+
+1601411288 c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\fila.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cliente.h"
+	"archivoClientes.h"
+	"listaSimpleClientes.h"
+	"registroArchivo.h"
+	"utilidades.h"
+	"gotoxy.h"
+	"listaDobleCliente.h"
+	"muestraMenu.h"
+	"tp1-Ejercicios.h"
+	"pilaClientes.h"
+
+1601411363 source:c:\users\gonza\onedrive\escritorio\facultad\1. programación\2° cuatrimestre\programacion 2\cursada actual\unidad 2 - listas\b. trabajo practicos\proyecto listas - clientes\fila.c
+	"fila.h"
+
