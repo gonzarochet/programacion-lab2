@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1699051573 source:c:\users\gonza\onedrive\escritorio\parcial2\especialidad.c
+	"especialidad.h"
+
+1698873930 c:\users\gonza\onedrive\escritorio\parcial2\especialidad.h
+
+1698786712 source:c:\users\gonza\onedrive\escritorio\parcial2\registroarchivo.c
+	"registroArchivo.h"
+
+1698873940 c:\users\gonza\onedrive\escritorio\parcial2\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+
+1699051612 source:c:\users\gonza\onedrive\escritorio\parcial2\stpaciente.c
+	"stPaciente.h"
+
+1698873848 c:\users\gonza\onedrive\escritorio\parcial2\stpaciente.h
+
+1698877660 source:c:\users\gonza\onedrive\escritorio\parcial2\arbol.c
+	"arbol.h"
+
+1699052346 c:\users\gonza\onedrive\escritorio\parcial2\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	"stPaciente.h"
+
+1699051988 source:c:\users\gonza\onedrive\escritorio\parcial2\lista.c
+
+1699052001 source:c:\users\gonza\onedrive\escritorio\parcial2\ada.c
+	"ada.h"
+
+1699052284 c:\users\gonza\onedrive\escritorio\parcial2\ada.h
+	<stdio.h>
+	<stdlib.h>
+	"registroArchivo.h"
+	"stPaciente.h"
+	"especialidad.h"
+	"arbol.h"
+	"string.h"
+
+1699052770 source:c:\users\gonza\onedrive\escritorio\parcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ada.h"
+	"registroArchivo.h"
+	"stPaciente.h"
+	"especialidad.h"
+	"arbol.h"
+	"string.h"
+
+1699052898 source:c:\dev\parcial2\ada.c
+	"ada.h"
+
+1699052284 c:\dev\parcial2\ada.h
+	<stdio.h>
+	<stdlib.h>
+	"registroArchivo.h"
+	"stPaciente.h"
+	"especialidad.h"
+	"arbol.h"
+	"string.h"
+
+1698873940 c:\dev\parcial2\registroarchivo.h
+	<stdlib.h>
+	<stdio.h>
+
+1698873848 c:\dev\parcial2\stpaciente.h
+
+1698873930 c:\dev\parcial2\especialidad.h
+
+1699052346 c:\dev\parcial2\arbol.h
+	<stdio.h>
+	<stdlib.h>
+	"stPaciente.h"
+
+1698877660 source:c:\dev\parcial2\arbol.c
+	"arbol.h"
+
+1699051573 source:c:\dev\parcial2\especialidad.c
+	"especialidad.h"
+
+1699051988 source:c:\dev\parcial2\lista.c
+
+1699053317 source:c:\dev\parcial2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ada.h"
+	"registroArchivo.h"
+	"stPaciente.h"
+	"especialidad.h"
+	"arbol.h"
+	"string.h"
+
+1698786712 source:c:\dev\parcial2\registroarchivo.c
+	"registroArchivo.h"
+
+1699051612 source:c:\dev\parcial2\stpaciente.c
+	"stPaciente.h"
+

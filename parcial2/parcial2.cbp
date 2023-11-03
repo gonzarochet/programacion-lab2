@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="prueba2" />
+		<Option title="parcial2" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/prueba2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/parcial2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/prueba2" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/parcial2" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,10 +31,35 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="ada.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ada.h" />
+		<Unit filename="arbol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="arbol.h" />
+		<Unit filename="especialidad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="especialidad.h" />
+		<Unit filename="lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lista.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="registroArchivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="registroArchivo.h" />
+		<Unit filename="stPaciente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stPaciente.h" />
 		<Extensions>
+			<lib_finder disable_auto="1" />
 			<code_completion />
 			<envvars />
 			<debugger />
