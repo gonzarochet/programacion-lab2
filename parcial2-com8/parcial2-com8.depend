@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1700249628 source:c:\develop\c\programacion-lab2\parcial2-com8\jugador.c
+	"jugador.h"
+
+1700249831 c:\develop\c\programacion-lab2\parcial2-com8\jugador.h
+	<stdio.h>
+	<stdlib.h>
+
+1700249288 source:c:\develop\c\programacion-lab2\parcial2-com8\equipo.c
+	"equipo.h"
+
+1700249815 c:\develop\c\programacion-lab2\parcial2-com8\equipo.h
+	<stdio.h>
+	<stdlib.h>
+
+1700255923 source:c:\develop\c\programacion-lab2\parcial2-com8\jugadorequipo.c
+	"jugadorEquipo.h"
+
+1700249793 c:\develop\c\programacion-lab2\parcial2-com8\jugadorequipo.h
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"equipo.h"
+	"jugador.h"
+
+1700254732 source:c:\develop\c\programacion-lab2\parcial2-com8\listaequipo.c
+	"listaEquipo.h"
+
+1700254570 c:\develop\c\programacion-lab2\parcial2-com8\listaequipo.h
+	<stdio.h>
+	<stdlib.h>
+	"equipo.h"
+	"listaJugador.h"
+
+1700256126 c:\develop\c\programacion-lab2\parcial2-com8\listajugador.h
+	<stdio.h>
+	<stdlib.h>
+	"jugador.h"
+
+1700256124 source:c:\develop\c\programacion-lab2\parcial2-com8\listajugador.c
+	"listaJugador.h"
+
+1700257127 source:c:\develop\c\programacion-lab2\parcial2-com8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"conio.h"
+	"listaEquipo.h"
+	"jugador.h"
+	"equipo.h"
+	"jugadorEquipo.h"
+
